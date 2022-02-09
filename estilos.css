@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body a{
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    background-color: #312fb6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cara{
+    border-radius: 50px;
+    height: 200px;
+    margin: 20px;
+}
+
+.caja-central{
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 50%;
+}
+.caja-cara{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: #424242;
+}
+
+.caja-presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: #F2F2F2;
+    color: #303030;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-descarga{
+    background-color:rgb(12, 12, 12);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+.boton-descarga a{
+    text-decoration: none;
+    color: white;
+}
+
+.arriba{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.aptitudes{
+    width: 50%;
+}
+.tech-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.logo:hover{
+    border: 50px solid rgb(248, 245, 245);
+    color: rgb(3, 3, 3);
+}
+
+.html{
+    border: 10px solid rgb(255, 6, 6);
+}
+.css{
+    border: 10px solid rgb(55, 0, 255); 
+}
+.js{
+    border: 10px solid rgb(251, 255, 0);
+}
+.c{
+    border: 10px solid rgb(217, 0, 255);
+}
+
+.tech{
+    height: 90px;
+}
+.uno{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 700px;
+    background-color: #303030;
+    color: white;
+}
+
+.dos{
+    background-color: #F2F2F2;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.tres{
+    background-color: #303030;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #F2F2F2;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cuatro{
+    background-color: #fdfbfb;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #050505;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cinco{
+    background-color: #303030;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #f7f3f3; 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.proyectos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card{
+    color: #0a0a0a;
+    text-align: center;
+    width: 30%;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+.card img{
+    width: 100%;
+}
+.card a, footer a {
+    color: rgb(7, 7, 7);
+}
+
+.red-social{
+    height: 60px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 1000px) {
+    .caja-central{
+        width: 90%;
+        height: 70%;
+        flex-direction: column;
+    }
+    .caja-cara{
+        width: 100%;
+        height: 50%;
+    }
+    .caja-presentacion{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+    }
+    .aptitudes{
+        width: auto;
+    }
+    .dos{
+        height: 50%;
+        padding:10px 10px;
+        margin: 15px;
+    }
+    .tres{
+        height: 50%;
+        padding:10px 10px;
+        margin: 15px;
+    }
+    .cuatro{
+        height: 50%;
+        padding:10px 10px;
+        margin: 15px;
+    }
+    .cinco{
+        height: 50%;
+        padding:10px 10px;
+        margin: 15px;
+    }
+    .tech-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .proyectos{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .card{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .red-social{
+        margin: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .caja-central{
+        padding: 10px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .caja-presentacion{
+        height: 70%;
+        padding: 10px;
+    }
+    .cara{
+        width: 300px;
+        height: 200px;
+    }
+    .tech-list{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
