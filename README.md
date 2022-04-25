@@ -1,5 +1,13 @@
-# MyPortfolio
-my repository
-BIENVENIDOS A MI PORTFOLIO
+# 💼 Responsive Mini Portfolio
+## [Watch it on youtube](https://youtu.be/mq0xJxOTiYo)
+### 💼 Responsive Mini Portfolio
 
-Conforme va pasando el tiempo voy a ir mejorandolo agregando todo el conocimiento que voy a ir adquiriendo! a la fecha sigo capacitandome para poder dedicarme integramente al desarrollo web
+- Responsive mini portfolio website Using HTML CSS & JavaScript
+- Contains animations css.
+- Includes a light and dark mode.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+
+💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+
+![preview img](/preview.png)
