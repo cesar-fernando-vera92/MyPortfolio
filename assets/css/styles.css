@@ -229,6 +229,7 @@ body.dark-theme {
 }
 
 .profile__info-number {
+  color: blue;
   font-size: var(--normal-font-size);
   margin-bottom: .25rem;
 }
