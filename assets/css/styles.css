@@ -229,11 +229,12 @@ body.dark-theme {
 }
 
 .profile__info-number {
-  color: blue;
   font-size: var(--normal-font-size);
   margin-bottom: .25rem;
 }
-
+.profile__info-number a{
+  color: blue;
+}
 .profile__info-description {
   font-size: var(--smaller-font-size);
   font-weight: 500;
